@@ -3,7 +3,7 @@
 ## Samples
 - RNA from 4000 HSCs, 2000 Flk2- MPPs, 2000 Flk2+ MPPs, 4000 CLPs and 4000 ckit+sca- cells per sample were submitted for scRNAseq.
 
-## Data Preprocessing
+## Data Preprocessing Using Scanpy in Python
 - Samples are combined before any pre-processing.
 - Ambient RNA removal was determined to not affect downstream analysis and was therefore removed from the pipeline.
 - Remove genes expressed in less than 3 cells and remove cells with less than 200 genes expressed.
@@ -11,10 +11,10 @@
 - Remove mitochondrial, HBB genes and Malat1 as these are all the most highly expressed genes and are only used for previous QC steps and not necessary for downstream steps.
 - Identify highly variable genes and use these genes to perform multiple nearest neighbor(MNN) batch correction using Time as the batch key (yielded best results in terms of UMAP and downstream Differential Gene Expression Analysis (DGEA)).
 
-## Cell Annotation
+## Cell Annotation Using SingleR in R
 - Use raw reacds for transcription based cell annotation with SingleR package using R.
 
-## Data Analysis and Visualization
+## Data Analysis and Visualization Using Scanpy in Python
 - Compute tSNE plot and UMAP using raw counts on all cell types and on each cell types separately.
 - Determine known circadian gene expression using raw counts.
 - Use a 1 UMI in 2% percent of cell gene filter for DGEA.
