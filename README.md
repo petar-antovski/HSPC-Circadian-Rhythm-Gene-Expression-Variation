@@ -29,8 +29,11 @@
 ### Known Circadian Genes Expression Heatmap for All Cell Types
 ![image](https://user-images.githubusercontent.com/112181040/203354649-7c9e9f20-89a7-4c4b-b9a9-429d25d247fe.png)
 ### tSNE, UMAP and Known Circadian Genes Expression Heatmap were generated for each cell type (HSC, Flk2- MPP, Flk2+ MPP, CLP, CMP, GMP, MEP). Here are the HSC plots as example
+#### HSC tSNE
 ![image](https://user-images.githubusercontent.com/112181040/203353991-ccc20473-7c12-41f0-ad79-b5ae13c3d0fc.png)
+#### HSC UMAP
 ![image](https://user-images.githubusercontent.com/112181040/203354022-bd68352b-994a-42ac-ae85-978bc1159103.png)
+#### HSC Known Circadian Genes Expression Heatmap
 ![image](https://user-images.githubusercontent.com/112181040/203354829-9ff5ad8d-ceba-4bfb-8953-40f00c474921.png)
 ### HSC All vs Rest DGEA (performed for each cell type)
 ![image](https://user-images.githubusercontent.com/112181040/203355560-73a5af08-b727-43c4-a8bd-49b462e99a38.png)
