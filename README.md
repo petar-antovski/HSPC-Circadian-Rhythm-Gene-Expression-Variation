@@ -10,7 +10,9 @@
 - Remove cells with mitochondrial gene percentage higher than 10% and cells with ribosomal gene percentage las than 5%.
 - Remove mitochondrial, HBB genes and Malat1 as these are all the most highly expressed genes and are only used for previous QC steps and not necessary for downstream steps.
 - Identify highly variable genes and use these genes to perform multiple nearest neighbor(MNN) batch correction using Time as the batch key (yielded best results in terms of UMAP and downstream Differential Gene Expression Analysis (DGEA)).
-- Use raw reacds for cell annotation with SingleR.
+
+## Cell Annotation
+- Use raw reacds for transcription based cell annotation with SingleR package using R.
 
 ## Data Analysis and Visualization
 - Compute tSNE plot and UMAP using raw counts on all cell types and on each cell types separately.
@@ -30,7 +32,7 @@
 ![image](https://user-images.githubusercontent.com/112181040/203353991-ccc20473-7c12-41f0-ad79-b5ae13c3d0fc.png)
 ![image](https://user-images.githubusercontent.com/112181040/203354022-bd68352b-994a-42ac-ae85-978bc1159103.png)
 ![image](https://user-images.githubusercontent.com/112181040/203354829-9ff5ad8d-ceba-4bfb-8953-40f00c474921.png)
-### HSC Pairwise DGEA (performed for each cell type)
+### HSC All vs Rest DGEA (performed for each cell type)
 ![image](https://user-images.githubusercontent.com/112181040/203355560-73a5af08-b727-43c4-a8bd-49b462e99a38.png)
 ### Expression of HSC Differentially Expressed Genes (DEGs) Through Time (performed for each cell type)
 ![image](https://user-images.githubusercontent.com/112181040/203355825-dd3c0fb2-15eb-48b0-ae9c-61ec461d6b25.png)
