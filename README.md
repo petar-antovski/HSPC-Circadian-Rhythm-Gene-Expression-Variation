@@ -1,4 +1,4 @@
-# HSPC-Circadian-Rhythm-Gene-Expression-Variation
+# HSPC Circadian Rhythm Gene Expression Variation
 
 ## Samples
 - RNA from 4000 HSCs, 2000 Flk2- MPPs, 2000 Flk2+ MPPs, 4000 CLPs and 4000 ckit+sca- cells per sample were submitted for scRNAseq.
